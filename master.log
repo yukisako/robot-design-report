@@ -1,0 +1,422 @@
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.23)  11 JUN 2017 14:48
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**master.tex
+(./master.tex
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 0)
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+Document Class: jsarticle 2014/02/07 okumura
+LaTeX Info: Redefining \rmfamily on input line 352.
+LaTeX Info: Redefining \sffamily on input line 355.
+LaTeX Info: Redefining \ttfamily on input line 358.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 423.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 613.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 613.
+\fullwidth=\dimen118
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 760.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 760.
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\@abstractbox=\box41
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\js@tocl@width=\dimen119
+\@lnumwidth=\dimen120
+\bibindent=\dimen121
+LaTeX Info: Redefining \TeX on input line 1731.
+LaTeX Info: Redefining \LaTeX on input line 1757.
+LaTeX Info: Redefining \LaTeXe on input line 1782.
+\heisei=\count89
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+))
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
+)
+(./sty/robo.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen124
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen125
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box42
+\strutbox@=\box43
+\big@size=\dimen126
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks17
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks18
+\eqnshift@=\dimen127
+\alignsep@=\dimen128
+\tagshift@=\dimen129
+\tagwidth@=\dimen130
+\totwidth@=\dimen131
+\lineht@=\dimen132
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (./master.aux
+
+LaTeX Warning: Label `3-arm' multiply defined.
+
+
+LaTeX Warning: Label `3-arm' multiply defined.
+
+
+LaTeX Warning: Label `ux6163ux6027ux30e2ux30fcux30e1ux30f3ux30c8ux306eux89e3ux6
+790' multiply defined.
+
+
+LaTeX Warning: Label `ux5fdcux529bux306eux89e3ux6790' multiply defined.
+
+
+LaTeX Warning: Label `light-ouryoku' multiply defined.
+
+
+LaTeX Warning: Label `ux5909ux4f4dux306eux89e3ux6790' multiply defined.
+
+
+LaTeX Warning: Label `ux5fdcux529bux306eux89e3ux6790' multiply defined.
+
+
+LaTeX Warning: Label `ux5909ux4f4dux306eux89e3ux6790' multiply defined.
+
+
+LaTeX Warning: Label `strong-kaiten' multiply defined.
+
+)
+\openout1 = `master.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 9.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 9.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 9.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 9.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 9.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 9.
+ (./master.toc
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 3.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write3
+\openout3 = `master.toc'.
+
+ [1
+
+]
+(./tex/intro.tex) (./tex/about.tex
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 3.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 3.
+File: img/eps/default-base.eps Graphic file (type eps)
+ <img/eps/default-base.eps>
+File: img/eps/default-shaft.eps Graphic file (type eps)
+
+<img/eps/default-shaft.eps>
+Overfull \hbox (15.33331pt too wide) in paragraph at lines 46--62
+ [] 
+ []
+
+[2]
+File: img/eps/default-robot-arm.eps Graphic file (type eps)
+ <img/eps/default-robot-arm.eps>
+File: img/eps/brade.eps Graphic file (type eps)
+ <img/eps/brade.eps>
+Overfull \hbox (4.60481pt too wide) in paragraph at lines 85--86
+ [] 
+ []
+
+File: img/eps/robot-model.eps Graphic file (type eps)
+<img/eps/robot-model.eps>
+Overfull \hbox (15.33331pt too wide) in paragraph at lines 82--98
+ [] 
+ []
+
+File: img/eps/container-model.eps Graphic file (type eps)
+<img/eps/container-model.eps> [3]
+File: img/eps/default.eps Graphic file (type eps)
+ <img/eps/default.eps>
+File: img/eps/light-arm-model.eps Graphic file (type eps)
+
+<img/eps/light-arm-model.eps>
+Overfull \hbox (16.6088pt too wide) in paragraph at lines 134--135
+ [] 
+ []
+
+File: img/eps/strong-arm-model.eps Graphic file (type eps)
+<img/eps/strong-arm-model.eps>
+Overfull \hbox (15.33331pt too wide) in paragraph at lines 131--147
+ [] 
+ []
+
+File: img/eps/default.eps Graphic file (type eps)
+<img/eps/default.eps>
+File: img/eps/acculate.eps Graphic file (type eps)
+ <img/eps/acculate.eps>
+File: img/eps/swag.eps Graphic file (type eps)
+ <img/eps/swag.eps>)
+(./tex/basis.tex [4] [5]
+File: img/eps/basis-ouryoku.eps Graphic file (type eps)
+ <img/eps/basis-ouryoku.eps>
+File: img/eps/default-ouryoku-result.eps Graphic file (type eps)
+
+<img/eps/default-ouryoku-result.eps> [6] [7]
+File: img/eps/default-heni.eps Graphic file (type eps)
+ <img/eps/default-heni.eps>
+File: img/eps/default-heni-result.eps Graphic file (type eps)
+
+<img/eps/default-heni-result.eps> [8] [9]
+File: img/eps/basis-dh.eps Graphic file (type eps)
+ <img/eps/basis-dh.eps>
+File: img/eps/basis-kaiten2.eps Graphic file (type eps)
+
+<img/eps/basis-kaiten2.eps> [10]
+File: img/eps/compare.eps Graphic file (type eps)
+ <img/eps/compare.eps> [11]
+
+LaTeX Warning: Reference `basis-tesaki-kasokudo' on page 12 undefined on input 
+line 387.
+
+File: img/eps/basis-tesaki-sakudo2.eps Graphic file (type eps)
+<img/eps/basis-tesaki-sakudo2.eps>
+
+LaTeX Warning: Reference `basic-acc' on page 12 undefined on input line 441.
+
+File: img/eps/basis-acc.eps Graphic file (type eps)
+<img/eps/basis-acc.eps>) (./tex/light.tex [12] [13]
+File: img/eps/light-ouryoku.eps Graphic file (type eps)
+
+<img/eps/light-ouryoku.eps>
+File: img/eps/light-ouryoku-result.eps Graphic file (type eps)
+ <img/eps/light-ouryoku-result.eps> [14]
+File: img/eps/ouryoku-compare-basic-light.eps Graphic file (type eps)
+
+<img/eps/ouryoku-compare-basic-light.eps> [15]
+File: img/eps/light-heni.eps Graphic file (type eps)
+ <img/eps/light-heni.eps>
+File: img/eps/light-heni-result.eps Graphic file (type eps)
+
+<img/eps/light-heni-result.eps>
+File: img/eps/light-dh.eps Graphic file (type eps)
+ <img/eps/light-dh.eps>
+File: img/eps/light-kaiten2.eps Graphic file (type eps)
+
+<img/eps/light-kaiten2.eps> [16]
+File: img/eps/compare-light.eps Graphic file (type eps)
+ <img/eps/compare-light.eps> [17]
+File: img/eps/light-tesaki-sokudo2.eps Graphic file (type eps)
+
+<img/eps/light-tesaki-sokudo2.eps> [18]
+File: img/eps/light-compare-vel.eps Graphic file (type eps)
+ <img/eps/light-compare-vel.eps>
+File: img/eps/light-acc.eps Graphic file (type eps)
+
+<img/eps/light-acc.eps>) (./tex/strong.tex [19] [20]
+File: img/eps/strong-ouryoku.eps Graphic file (type eps)
+
+<img/eps/strong-ouryoku.eps>
+File: img/eps/strong-ouryoku-result.eps Graphic file (type eps)
+ <img/eps/strong-ouryoku-result.eps> [21]
+File: img/eps/strong-heni.eps Graphic file (type eps)
+
+<img/eps/strong-heni.eps>
+File: img/eps/strong-heni-result.eps Graphic file (type eps)
+ <img/eps/strong-heni-result.eps>
+File: img/eps/strong-dh.eps Graphic file (type eps)
+
+<img/eps/strong-dh.eps> [22]
+File: img/eps/strong-kaiten2.eps Graphic file (type eps)
+ <img/eps/strong-kaiten2.eps> [23]
+File: img/eps/strong-compare.eps Graphic file (type eps)
+
+<img/eps/strong-compare.eps>
+File: img/eps/strong-tesaki-sokudo2.eps Graphic file (type eps)
+ <img/eps/strong-tesaki-sokudo2.eps> [24]
+File: img/eps/strong-compare-vel.eps Graphic file (type eps)
+
+<img/eps/strong-compare-vel.eps> [25]
+File: img/eps/strong-acc.eps Graphic file (type eps)
+ <img/eps/strong-acc.eps>)
+(./tex/compare.tex) (./tex/new.tex
+File: img/eps/last-robot-arm.eps Graphic file (type eps)
+ <img/eps/last-robot-arm.eps>
+Overfull \hbox (20.04414pt too wide) in paragraph at lines 11--14
+ [] 
+ []
+
+[26]
+File: img/eps/last-ouryoku.eps Graphic file (type eps)
+ <img/eps/last-ouryoku.eps>
+File: img/eps/last-ouryoku-result.eps Graphic file (type eps)
+ <img/eps/last-ouryoku-result.eps> [27]
+File: img/eps/last-heni.eps Graphic file (type eps)
+
+<img/eps/last-heni.eps>
+File: img/eps/last-heni-result.eps Graphic file (type eps)
+ <img/eps/last-heni-result.eps>
+File: img/eps/last-kaiten.eps Graphic file (type eps)
+
+<img/eps/last-kaiten.eps>
+Overfull \hbox (5.32458pt too wide) in paragraph at lines 127--130
+ [] 
+ []
+
+[28]
+File: img/eps/last-tesaki-sokudo.eps Graphic file (type eps)
+ <img/eps/last-tesaki-sokudo.eps> [29]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 219.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 219.
+) [30]
+(./master.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1872 strings out of 493777
+ 25065 string characters out of 6151333
+ 86222 words of memory out of 5000000
+ 5298 multiletter control sequences out of 15000+600000
+ 12324 words of font info for 56 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 34i,11n,45p,497b,492s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on master.dvi (30 pages, 100656 bytes).

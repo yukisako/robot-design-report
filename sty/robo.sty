@@ -1,0 +1,108 @@
+%=============================================================================%
+%
+%【 ロボット設計演習レポート用スタイルファイル(Ver. 2015-04-29-1000) 】
+%
+%=============================================================================%
+%
+% 更新：2015/04/02 清水 拓也
+% 更新：2015/04/10 土橋 宏規
+%
+%-----------------------------------------------------------------------------%
+%
+%% パッケージの読み込み
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+%
+%% LaTeX2e以外ではエラーを返すようにする
+\NeedsTeXFormat{LaTeX2e}
+%
+%% 高さの設定
+\setlength{\textheight}{\paperheight}   % ひとまず紙面を本文領域に設定
+\setlength{\topmargin}{-5.4truemm}      % 上の余白を20mm(=1inch-5.4mm)に設定
+\addtolength{\topmargin}{-\headheight}  % 
+\addtolength{\topmargin}{-\headsep}     % ヘッダの分だけ本文領域を移動
+\addtolength{\textheight}{-40truemm}    % 下の余白も20mmに設定
+%
+%% 幅の設定
+\setlength{\textwidth}{\paperwidth}     % ひとまず紙面を本文領域に設定
+\setlength{\oddsidemargin}{-5.4truemm}  % 左の余白を20mm(=1inch-5.4mm)に設定
+\setlength{\evensidemargin}{-5.4truemm} % 
+\addtolength{\textwidth}{-40truemm}     % 右の余白も20mmに設定
+%
+%
+%% 見出しのカスタマイズ("section"，"subsection"のみの使用を想定)
+\def\section{\@startsection{section}{1}
+  {\z@}                       % インデント大きさ
+  {1.5zh}           % 見出し前スペース
+  {.5zh}            % 見出し後スペース
+  {\large\bf}}        % 見出しフォント
+%
+\def\subsection{\@startsection{subsection}{2}
+  {\z@}                       % インデント大きさ
+  {1.0zh}           % 見出し前スペース
+  {.5ex plus .2ex}      % 見出し後スペース
+  {\normalsize\bf}}     % 見出しフォント
+%
+\def\@seccntformat#1{% #1: <counter name>
+   \@nameuse{@seccnt@prefix@#1}
+   \@nameuse{the#1}
+   \@nameuse{@seccnt@postfix@#1}
+   \@nameuse{@seccnt@afterskip@#1}
+}
+\def\@seccnt@prefix@section{\hspace{-.25em}}    % sectionの番号前の空白調整
+\def\@seccnt@postfix@section{\hspace{-.3em}.}   % 〃の番号後に"."を付加
+\def\@seccnt@afterskip@section{\hspace{.2em}}   % 〃の見出し後の空白調整
+\def\@seccnt@prefix@subsection{\hspace{-.25em}} % subsectionの番号前の空白調整
+\def\@seccnt@postfix@subsection{}         % 〃の番号後の空白調整
+\def\@seccnt@afterskip@subsection{}       % 〃の見出し後の空白調整
+%
+
+%% figure/table環境のカスタマイズ
+\long\def\@makecaption#1#2{
+  \vskip 10pt 
+  \setbox\@tempboxa\hbox{#1 #2}
+  \ifdim \wd\@tempboxa >\hsize \unhbox\@tempboxa\par 
+  \else \hbox to\hsize{\hfil\box\@tempboxa\hfil} 
+  \fi
+}
+%\def\fnum@figure{{図$\,$\thefigure$\ \ $}}
+%\def\fnum@table{表$\,$\thetable$\ \ $}
+%
+%% bibliography環境のカスタマイズ
+\renewenvironment{thebibliography}[1]{
+  \section*{\refname\@mkboth{\refname}{\refname}}
+  \vskip .5zh
+  \list{\@biblabel{\@arabic\c@enumiv}}
+  {\settowidth\labelwidth{\@biblabel{#1}}
+        \leftmargin\labelwidth
+        \advance\leftmargin\labelsep
+    \setlength\itemsep{.3zh}    % 文献同士の垂直方向の間隔
+    \setlength\baselineskip{13pt} % 行間
+        \@openbib@code
+        \usecounter{enumiv}%
+        \let\p@enumiv\@empty
+        \renewcommand\theenumiv{\@arabic\c@enumiv}
+  }
+    \sloppy
+    \clubpenalty4000
+    \@clubpenalty\clubpenalty
+    \widowpenalty4000%
+    \sfcode`\.\@m
+}{
+  \def\@noitemerr
+    {\@latex@warning{Empty `thebibliography' environment}}
+  \endlist
+}
+%
+%% appendix環境のカスタマイズ
+\renewcommand{\appendix}{\par
+  \setcounter{section}{0}%
+  \setcounter{subsection}{0}%
+  \renewcommand{\thesection}{\appendixname~\@Alph\c@section}
+  \renewcommand{\thesubsection}{\thesection.\,\@arabic\c@subsection}
+  \renewcommand{\thesubsubsection}{\thesubsection.\,\@arabic\c@subsubsection}
+  \setcounter{equation}{0}%
+  \renewcommand{\theequation}{\@Alph\c@section.\@arabic\c@equation}
+}
